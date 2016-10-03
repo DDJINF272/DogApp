@@ -22,3 +22,5 @@ C:\Users\John\Desktop\DogApp\DogApp\obj\Debug\DogApp.Properties.Resources.resour
 C:\Users\John\Desktop\DogApp\DogApp\obj\Debug\DogApp.csproj.GenerateResource.Cache
 C:\Users\John\Desktop\DogApp\DogApp\obj\Debug\DogApp.NewTrait.resources
 C:\Users\John\Source\Repos\DogApp\DogApp\obj\Debug\DogApp.NewTrait.resources
+C:\Users\DR\Source\Repos\DogApp\DogApp\obj\Debug\DogApp.exe
+C:\Users\DR\Source\Repos\DogApp\DogApp\obj\Debug\DogApp.pdb

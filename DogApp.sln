@@ -5,6 +5,13 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogApp", "DogApp\DogApp.csproj", "{F86DD60D-8505-4C7B-B14A-137630B21BA3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{74959183-2DB6-42E0-A02E-52079AD096A5}"
+	ProjectSection(SolutionItems) = preProject
+		DogApp\ManageDogAppearanceTraits.cs = DogApp\ManageDogAppearanceTraits.cs
+		DogApp\ManageDogAppearanceTraits.Designer.cs = DogApp\ManageDogAppearanceTraits.Designer.cs
+		DogApp\ManageDogAppearanceTraits.resx = DogApp\ManageDogAppearanceTraits.resx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
