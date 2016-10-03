@@ -3,3 +3,11 @@ C:\Users\DR\Source\Repos\DogApp\DogApp\bin\Debug\DogApp.exe.config
 C:\Users\John\Source\Repos\DogApp\DogApp\bin\Debug\DogApp.exe.config
 C:\Users\John\Source\Repos\DogApp\DogApp\obj\Debug\DogApp.exe
 C:\Users\John\Source\Repos\DogApp\DogApp\obj\Debug\DogApp.pdb
+C:\Users\John\Source\Repos\DogApp\DogApp\bin\Debug\DogApp.exe
+C:\Users\John\Source\Repos\DogApp\DogApp\bin\Debug\DogApp.pdb
+C:\Users\John\Source\Repos\DogApp\DogApp\obj\Debug\DogApp.csprojResolveAssemblyReference.cache
+C:\Users\John\Source\Repos\DogApp\DogApp\obj\Debug\DogApp.ManageDogAppearance.resources
+C:\Users\John\Source\Repos\DogApp\DogApp\obj\Debug\DogApp.ManageDogSpecies.resources
+C:\Users\John\Source\Repos\DogApp\DogApp\obj\Debug\DogApp.Form1.resources
+C:\Users\John\Source\Repos\DogApp\DogApp\obj\Debug\DogApp.Properties.Resources.resources
+C:\Users\John\Source\Repos\DogApp\DogApp\obj\Debug\DogApp.csproj.GenerateResource.Cache
