@@ -1,0 +1,2 @@
+c:\users\dr\documents\visual studio 2015\Projects\DogApp\DogApp\bin\Debug\DogApp.exe.config
+C:\Users\DR\Source\Repos\DogApp\DogApp\bin\Debug\DogApp.exe.config
