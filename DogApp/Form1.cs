@@ -19,17 +19,14 @@ namespace DogApp
 
         private void btnAddNewDog_Click(object sender, EventArgs e)
         {
-
+            ManageDogSpecies ms = new ManageDogSpecies();
+            ms.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void btnManagePersonalityAndTraits_Click(object sender, EventArgs e)
-        {
-
+            ManageDogAppearance dogAppearance = new ManageDogAppearance();
+            dogAppearance.ShowDialog();
         }
     }
 }

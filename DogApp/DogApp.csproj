@@ -52,12 +52,6 @@
     <Compile Include="ManageDogAppearance.Designer.cs">
       <DependentUpon>ManageDogAppearance.cs</DependentUpon>
     </Compile>
-    <Compile Include="ManageDogAppearanceTraits.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ManageDogAppearanceTraits.Designer.cs">
-      <DependentUpon>ManageDogAppearanceTraits.cs</DependentUpon>
-    </Compile>
     <Compile Include="ManageDogSpecies.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,19 +64,25 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewTrait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewTrait.Designer.cs">
+      <DependentUpon>NewTrait.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ManageDogAppearance.resx">
       <DependentUpon>ManageDogAppearance.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ManageDogAppearanceTraits.resx">
-      <DependentUpon>ManageDogAppearanceTraits.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManageDogSpecies.resx">
       <DependentUpon>ManageDogSpecies.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewTrait.resx">
+      <DependentUpon>NewTrait.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
