@@ -26,5 +26,10 @@ namespace DogApp
         {
 
         }
+
+        private void btnManagePersonalityAndTraits_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

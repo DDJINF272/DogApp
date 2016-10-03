@@ -52,6 +52,12 @@
     <Compile Include="ManageDogAppearance.Designer.cs">
       <DependentUpon>ManageDogAppearance.cs</DependentUpon>
     </Compile>
+    <Compile Include="ManageDogAppearanceTraits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageDogAppearanceTraits.Designer.cs">
+      <DependentUpon>ManageDogAppearanceTraits.cs</DependentUpon>
+    </Compile>
     <Compile Include="ManageDogSpecies.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ManageDogAppearance.resx">
       <DependentUpon>ManageDogAppearance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageDogAppearanceTraits.resx">
+      <DependentUpon>ManageDogAppearanceTraits.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManageDogSpecies.resx">
       <DependentUpon>ManageDogSpecies.cs</DependentUpon>

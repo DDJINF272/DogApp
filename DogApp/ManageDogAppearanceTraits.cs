@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace DogApp
 {
-    public partial class ManageDogSpecies : Form
+    public partial class ManageDogAppearanceTraits : Form
     {
-        public ManageDogSpecies()
+        public ManageDogAppearanceTraits()
         {
             InitializeComponent();
-        }
-
-        private void tabPage1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
