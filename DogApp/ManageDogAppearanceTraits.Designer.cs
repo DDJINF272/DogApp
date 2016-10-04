@@ -643,6 +643,7 @@
             this.Controls.Add(this.tabControl1);
             this.Name = "ManageDogAppearanceTraits";
             this.Text = "Manage Dog Appearance Traits";
+            this.Load += new System.EventHandler(this.ManageDogAppearanceTraits_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
