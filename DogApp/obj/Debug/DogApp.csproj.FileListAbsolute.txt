@@ -24,3 +24,13 @@ C:\Users\John\Desktop\DogApp\DogApp\obj\Debug\DogApp.NewTrait.resources
 C:\Users\John\Source\Repos\DogApp\DogApp\obj\Debug\DogApp.NewTrait.resources
 C:\Users\DR\Source\Repos\DogApp\DogApp\obj\Debug\DogApp.exe
 C:\Users\DR\Source\Repos\DogApp\DogApp\obj\Debug\DogApp.pdb
+C:\Users\DR\Source\Repos\DogApp\DogApp\bin\Debug\DogApp.exe
+C:\Users\DR\Source\Repos\DogApp\DogApp\bin\Debug\DogApp.pdb
+C:\Users\DR\Source\Repos\DogApp\DogApp\obj\Debug\DogApp.csprojResolveAssemblyReference.cache
+C:\Users\DR\Source\Repos\DogApp\DogApp\obj\Debug\DogApp.ManageDogAppearance.resources
+C:\Users\DR\Source\Repos\DogApp\DogApp\obj\Debug\DogApp.ManageDogAppearanceTraits.resources
+C:\Users\DR\Source\Repos\DogApp\DogApp\obj\Debug\DogApp.ManageDogSpecies.resources
+C:\Users\DR\Source\Repos\DogApp\DogApp\obj\Debug\DogApp.Form1.resources
+C:\Users\DR\Source\Repos\DogApp\DogApp\obj\Debug\DogApp.NewTrait.resources
+C:\Users\DR\Source\Repos\DogApp\DogApp\obj\Debug\DogApp.Properties.Resources.resources
+C:\Users\DR\Source\Repos\DogApp\DogApp\obj\Debug\DogApp.csproj.GenerateResource.Cache
