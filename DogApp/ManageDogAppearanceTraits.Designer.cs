@@ -30,56 +30,56 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.cbxBodyTypeID = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnAddBody = new System.Windows.Forms.Button();
             this.btnUpdateBody = new System.Windows.Forms.Button();
             this.btnDeleteBody = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
-            this.cbxAppearanceID = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbxTailTypeID = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.btnNewTail = new System.Windows.Forms.Button();
             this.btnUpdateTail = new System.Windows.Forms.Button();
             this.btnDeleteTail = new System.Windows.Forms.Button();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cbxEarTypeID = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
             this.btnNewEar = new System.Windows.Forms.Button();
             this.btnUpdateEar = new System.Windows.Forms.Button();
             this.btnDeleteEar = new System.Windows.Forms.Button();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.richTextBox4 = new System.Windows.Forms.RichTextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.cbxCoatTypeID = new System.Windows.Forms.ComboBox();
             this.label16 = new System.Windows.Forms.Label();
             this.btnNewCoat = new System.Windows.Forms.Button();
             this.btnUpdateCoat = new System.Windows.Forms.Button();
             this.btnDeleteCoat = new System.Windows.Forms.Button();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
             this.richTextBox5 = new System.Windows.Forms.RichTextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.cbxHeadTypeID = new System.Windows.Forms.ComboBox();
             this.label20 = new System.Windows.Forms.Label();
             this.btnNewHead = new System.Windows.Forms.Button();
             this.btnUpdateHead = new System.Windows.Forms.Button();
@@ -112,7 +112,7 @@
             this.tabPage1.Controls.Add(this.label3);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.label9);
-            this.tabPage1.Controls.Add(this.cbxAppearanceID);
+            this.tabPage1.Controls.Add(this.cbxBodyTypeID);
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Controls.Add(this.btnAddBody);
             this.tabPage1.Controls.Add(this.btnUpdateBody);
@@ -125,85 +125,64 @@
             this.tabPage1.Text = "Body Types";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
+            // richTextBox1
             // 
-            this.tabPage2.Controls.Add(this.richTextBox2);
-            this.tabPage2.Controls.Add(this.textBox2);
-            this.tabPage2.Controls.Add(this.label4);
-            this.tabPage2.Controls.Add(this.label5);
-            this.tabPage2.Controls.Add(this.label6);
-            this.tabPage2.Controls.Add(this.comboBox1);
-            this.tabPage2.Controls.Add(this.label7);
-            this.tabPage2.Controls.Add(this.btnNewTail);
-            this.tabPage2.Controls.Add(this.btnUpdateTail);
-            this.tabPage2.Controls.Add(this.btnDeleteTail);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(555, 306);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Tail Types";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.richTextBox1.Location = new System.Drawing.Point(129, 80);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(237, 155);
+            this.richTextBox1.TabIndex = 25;
+            this.richTextBox1.Text = "";
             // 
-            // tabPage3
+            // textBox1
             // 
-            this.tabPage3.Controls.Add(this.richTextBox3);
-            this.tabPage3.Controls.Add(this.textBox3);
-            this.tabPage3.Controls.Add(this.label8);
-            this.tabPage3.Controls.Add(this.label10);
-            this.tabPage3.Controls.Add(this.label11);
-            this.tabPage3.Controls.Add(this.comboBox2);
-            this.tabPage3.Controls.Add(this.label12);
-            this.tabPage3.Controls.Add(this.btnNewEar);
-            this.tabPage3.Controls.Add(this.btnUpdateEar);
-            this.tabPage3.Controls.Add(this.btnDeleteEar);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(555, 306);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Ear Types";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            this.textBox1.Location = new System.Drawing.Point(129, 52);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(160, 20);
+            this.textBox1.TabIndex = 24;
             // 
-            // tabPage4
+            // label3
             // 
-            this.tabPage4.Controls.Add(this.richTextBox4);
-            this.tabPage4.Controls.Add(this.textBox4);
-            this.tabPage4.Controls.Add(this.label13);
-            this.tabPage4.Controls.Add(this.label14);
-            this.tabPage4.Controls.Add(this.label15);
-            this.tabPage4.Controls.Add(this.comboBox3);
-            this.tabPage4.Controls.Add(this.label16);
-            this.tabPage4.Controls.Add(this.btnNewCoat);
-            this.tabPage4.Controls.Add(this.btnUpdateCoat);
-            this.tabPage4.Controls.Add(this.btnDeleteCoat);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(555, 306);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Coat Types";
-            this.tabPage4.UseVisualStyleBackColor = true;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(6, 80);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(117, 13);
+            this.label3.TabIndex = 23;
+            this.label3.Text = "Body Type Description:";
             // 
-            // tabPage5
+            // label2
             // 
-            this.tabPage5.Controls.Add(this.richTextBox5);
-            this.tabPage5.Controls.Add(this.textBox5);
-            this.tabPage5.Controls.Add(this.label17);
-            this.tabPage5.Controls.Add(this.label18);
-            this.tabPage5.Controls.Add(this.label19);
-            this.tabPage5.Controls.Add(this.comboBox4);
-            this.tabPage5.Controls.Add(this.label20);
-            this.tabPage5.Controls.Add(this.btnNewHead);
-            this.tabPage5.Controls.Add(this.btnUpdateHead);
-            this.tabPage5.Controls.Add(this.btnDeleteHead);
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(555, 306);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Head Types";
-            this.tabPage5.UseVisualStyleBackColor = true;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 52);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(92, 13);
+            this.label2.TabIndex = 22;
+            this.label2.Text = "Body Type Name:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(281, 13);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(175, 13);
+            this.label9.TabIndex = 21;
+            this.label9.Text = "(Select in case of update or delete) ";
+            // 
+            // cbxBodyTypeID
+            // 
+            this.cbxBodyTypeID.FormattingEnabled = true;
+            this.cbxBodyTypeID.Location = new System.Drawing.Point(129, 10);
+            this.cbxBodyTypeID.Name = "cbxBodyTypeID";
+            this.cbxBodyTypeID.Size = new System.Drawing.Size(144, 21);
+            this.cbxBodyTypeID.TabIndex = 20;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(108, 13);
+            this.label1.TabIndex = 19;
+            this.label1.Text = "Select Body Type ID:";
             // 
             // btnAddBody
             // 
@@ -232,64 +211,25 @@
             this.btnDeleteBody.Text = "Delete Selected Body Type";
             this.btnDeleteBody.UseVisualStyleBackColor = true;
             // 
-            // label9
+            // tabPage2
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(281, 13);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(175, 13);
-            this.label9.TabIndex = 21;
-            this.label9.Text = "(Select in case of update or delete) ";
-            // 
-            // cbxAppearanceID
-            // 
-            this.cbxAppearanceID.FormattingEnabled = true;
-            this.cbxAppearanceID.Location = new System.Drawing.Point(129, 10);
-            this.cbxAppearanceID.Name = "cbxAppearanceID";
-            this.cbxAppearanceID.Size = new System.Drawing.Size(144, 21);
-            this.cbxAppearanceID.TabIndex = 20;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(108, 13);
-            this.label1.TabIndex = 19;
-            this.label1.Text = "Select Body Type ID:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 52);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 13);
-            this.label2.TabIndex = 22;
-            this.label2.Text = "Body Type Name:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 80);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(117, 13);
-            this.label3.TabIndex = 23;
-            this.label3.Text = "Body Type Description:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(129, 52);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(160, 20);
-            this.textBox1.TabIndex = 24;
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(129, 80);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(237, 155);
-            this.richTextBox1.TabIndex = 25;
-            this.richTextBox1.Text = "";
+            this.tabPage2.Controls.Add(this.richTextBox2);
+            this.tabPage2.Controls.Add(this.textBox2);
+            this.tabPage2.Controls.Add(this.label4);
+            this.tabPage2.Controls.Add(this.label5);
+            this.tabPage2.Controls.Add(this.label6);
+            this.tabPage2.Controls.Add(this.cbxTailTypeID);
+            this.tabPage2.Controls.Add(this.label7);
+            this.tabPage2.Controls.Add(this.btnNewTail);
+            this.tabPage2.Controls.Add(this.btnUpdateTail);
+            this.tabPage2.Controls.Add(this.btnDeleteTail);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(555, 306);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Tail Types";
+            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // richTextBox2
             // 
@@ -333,13 +273,13 @@
             this.label6.TabIndex = 31;
             this.label6.Text = "(Select in case of update or delete) ";
             // 
-            // comboBox1
+            // cbxTailTypeID
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(129, 11);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(144, 21);
-            this.comboBox1.TabIndex = 30;
+            this.cbxTailTypeID.FormattingEnabled = true;
+            this.cbxTailTypeID.Location = new System.Drawing.Point(129, 11);
+            this.cbxTailTypeID.Name = "cbxTailTypeID";
+            this.cbxTailTypeID.Size = new System.Drawing.Size(144, 21);
+            this.cbxTailTypeID.TabIndex = 30;
             // 
             // label7
             // 
@@ -376,6 +316,26 @@
             this.btnDeleteTail.TabIndex = 27;
             this.btnDeleteTail.Text = "Delete Selected Tail Type";
             this.btnDeleteTail.UseVisualStyleBackColor = true;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.richTextBox3);
+            this.tabPage3.Controls.Add(this.textBox3);
+            this.tabPage3.Controls.Add(this.label8);
+            this.tabPage3.Controls.Add(this.label10);
+            this.tabPage3.Controls.Add(this.label11);
+            this.tabPage3.Controls.Add(this.cbxEarTypeID);
+            this.tabPage3.Controls.Add(this.label12);
+            this.tabPage3.Controls.Add(this.btnNewEar);
+            this.tabPage3.Controls.Add(this.btnUpdateEar);
+            this.tabPage3.Controls.Add(this.btnDeleteEar);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(555, 306);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Ear Types";
+            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // richTextBox3
             // 
@@ -419,13 +379,13 @@
             this.label11.TabIndex = 41;
             this.label11.Text = "(Select in case of update or delete) ";
             // 
-            // comboBox2
+            // cbxEarTypeID
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(129, 10);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(144, 21);
-            this.comboBox2.TabIndex = 40;
+            this.cbxEarTypeID.FormattingEnabled = true;
+            this.cbxEarTypeID.Location = new System.Drawing.Point(129, 10);
+            this.cbxEarTypeID.Name = "cbxEarTypeID";
+            this.cbxEarTypeID.Size = new System.Drawing.Size(144, 21);
+            this.cbxEarTypeID.TabIndex = 40;
             // 
             // label12
             // 
@@ -462,6 +422,26 @@
             this.btnDeleteEar.TabIndex = 37;
             this.btnDeleteEar.Text = "Delete Selected Ear Type";
             this.btnDeleteEar.UseVisualStyleBackColor = true;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Controls.Add(this.richTextBox4);
+            this.tabPage4.Controls.Add(this.textBox4);
+            this.tabPage4.Controls.Add(this.label13);
+            this.tabPage4.Controls.Add(this.label14);
+            this.tabPage4.Controls.Add(this.label15);
+            this.tabPage4.Controls.Add(this.cbxCoatTypeID);
+            this.tabPage4.Controls.Add(this.label16);
+            this.tabPage4.Controls.Add(this.btnNewCoat);
+            this.tabPage4.Controls.Add(this.btnUpdateCoat);
+            this.tabPage4.Controls.Add(this.btnDeleteCoat);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(555, 306);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Coat Types";
+            this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // richTextBox4
             // 
@@ -505,13 +485,13 @@
             this.label15.TabIndex = 41;
             this.label15.Text = "(Select in case of update or delete) ";
             // 
-            // comboBox3
+            // cbxCoatTypeID
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(129, 10);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(144, 21);
-            this.comboBox3.TabIndex = 40;
+            this.cbxCoatTypeID.FormattingEnabled = true;
+            this.cbxCoatTypeID.Location = new System.Drawing.Point(129, 10);
+            this.cbxCoatTypeID.Name = "cbxCoatTypeID";
+            this.cbxCoatTypeID.Size = new System.Drawing.Size(144, 21);
+            this.cbxCoatTypeID.TabIndex = 40;
             // 
             // label16
             // 
@@ -548,6 +528,26 @@
             this.btnDeleteCoat.TabIndex = 37;
             this.btnDeleteCoat.Text = "Delete Selected Coat Type";
             this.btnDeleteCoat.UseVisualStyleBackColor = true;
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Controls.Add(this.richTextBox5);
+            this.tabPage5.Controls.Add(this.textBox5);
+            this.tabPage5.Controls.Add(this.label17);
+            this.tabPage5.Controls.Add(this.label18);
+            this.tabPage5.Controls.Add(this.label19);
+            this.tabPage5.Controls.Add(this.cbxHeadTypeID);
+            this.tabPage5.Controls.Add(this.label20);
+            this.tabPage5.Controls.Add(this.btnNewHead);
+            this.tabPage5.Controls.Add(this.btnUpdateHead);
+            this.tabPage5.Controls.Add(this.btnDeleteHead);
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(555, 306);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Head Types";
+            this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // richTextBox5
             // 
@@ -591,13 +591,13 @@
             this.label19.TabIndex = 41;
             this.label19.Text = "(Select in case of update or delete) ";
             // 
-            // comboBox4
+            // cbxHeadTypeID
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(129, 11);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(144, 21);
-            this.comboBox4.TabIndex = 40;
+            this.cbxHeadTypeID.FormattingEnabled = true;
+            this.cbxHeadTypeID.Location = new System.Drawing.Point(129, 11);
+            this.cbxHeadTypeID.Name = "cbxHeadTypeID";
+            this.cbxHeadTypeID.Size = new System.Drawing.Size(144, 21);
+            this.cbxHeadTypeID.TabIndex = 40;
             // 
             // label20
             // 
@@ -639,7 +639,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(587, 373);
+            this.ClientSize = new System.Drawing.Size(587, 354);
             this.Controls.Add(this.tabControl1);
             this.Name = "ManageDogAppearanceTraits";
             this.Text = "Manage Dog Appearance Traits";
@@ -670,7 +670,7 @@
         private System.Windows.Forms.Button btnUpdateBody;
         private System.Windows.Forms.Button btnDeleteBody;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ComboBox cbxAppearanceID;
+        private System.Windows.Forms.ComboBox cbxBodyTypeID;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -681,7 +681,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbxTailTypeID;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnNewTail;
         private System.Windows.Forms.Button btnUpdateTail;
@@ -691,7 +691,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cbxEarTypeID;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button btnNewEar;
         private System.Windows.Forms.Button btnUpdateEar;
@@ -701,7 +701,7 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox cbxCoatTypeID;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Button btnNewCoat;
         private System.Windows.Forms.Button btnUpdateCoat;
@@ -711,7 +711,7 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox cbxHeadTypeID;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Button btnNewHead;
         private System.Windows.Forms.Button btnUpdateHead;

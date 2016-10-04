@@ -28,5 +28,11 @@ namespace DogApp
             ManageDogAppearance dogAppearance = new ManageDogAppearance();
             dogAppearance.ShowDialog();
         }
+
+        private void btnManagePersonalityAndTraits_Click(object sender, EventArgs e)
+        {
+            ManageDogAppearanceTraits dogAppearanceTraits = new ManageDogAppearanceTraits();
+            dogAppearanceTraits.ShowDialog();
+        }
     }
 }
