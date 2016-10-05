@@ -30,19 +30,19 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.rtbBodyDescription = new System.Windows.Forms.RichTextBox();
+            this.tbxBodyName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.cbxBodyTypeID = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnAddBody = new System.Windows.Forms.Button();
+            this.btnNewBody = new System.Windows.Forms.Button();
             this.btnUpdateBody = new System.Windows.Forms.Button();
             this.btnDeleteBody = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.rtbTailDescription = new System.Windows.Forms.RichTextBox();
+            this.tbxTailName = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -52,8 +52,8 @@
             this.btnUpdateTail = new System.Windows.Forms.Button();
             this.btnDeleteTail = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.rtbEarDescription = new System.Windows.Forms.RichTextBox();
+            this.tbxEarName = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -63,8 +63,8 @@
             this.btnUpdateEar = new System.Windows.Forms.Button();
             this.btnDeleteEar = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.rtbCoatDescription = new System.Windows.Forms.RichTextBox();
+            this.tbxCoatName = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -74,8 +74,8 @@
             this.btnUpdateCoat = new System.Windows.Forms.Button();
             this.btnDeleteCoat = new System.Windows.Forms.Button();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.richTextBox5 = new System.Windows.Forms.RichTextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.rtbHeadDescription = new System.Windows.Forms.RichTextBox();
+            this.tbxHeadName = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
@@ -107,14 +107,14 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.richTextBox1);
-            this.tabPage1.Controls.Add(this.textBox1);
+            this.tabPage1.Controls.Add(this.rtbBodyDescription);
+            this.tabPage1.Controls.Add(this.tbxBodyName);
             this.tabPage1.Controls.Add(this.label3);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.label9);
             this.tabPage1.Controls.Add(this.cbxBodyTypeID);
             this.tabPage1.Controls.Add(this.label1);
-            this.tabPage1.Controls.Add(this.btnAddBody);
+            this.tabPage1.Controls.Add(this.btnNewBody);
             this.tabPage1.Controls.Add(this.btnUpdateBody);
             this.tabPage1.Controls.Add(this.btnDeleteBody);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
@@ -125,20 +125,20 @@
             this.tabPage1.Text = "Body Types";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // richTextBox1
+            // rtbBodyDescription
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(129, 80);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(237, 155);
-            this.richTextBox1.TabIndex = 25;
-            this.richTextBox1.Text = "";
+            this.rtbBodyDescription.Location = new System.Drawing.Point(129, 80);
+            this.rtbBodyDescription.Name = "rtbBodyDescription";
+            this.rtbBodyDescription.Size = new System.Drawing.Size(237, 155);
+            this.rtbBodyDescription.TabIndex = 25;
+            this.rtbBodyDescription.Text = "";
             // 
-            // textBox1
+            // tbxBodyName
             // 
-            this.textBox1.Location = new System.Drawing.Point(129, 52);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(160, 20);
-            this.textBox1.TabIndex = 24;
+            this.tbxBodyName.Location = new System.Drawing.Point(129, 52);
+            this.tbxBodyName.Name = "tbxBodyName";
+            this.tbxBodyName.Size = new System.Drawing.Size(160, 20);
+            this.tbxBodyName.TabIndex = 24;
             // 
             // label3
             // 
@@ -174,6 +174,7 @@
             this.cbxBodyTypeID.Name = "cbxBodyTypeID";
             this.cbxBodyTypeID.Size = new System.Drawing.Size(144, 21);
             this.cbxBodyTypeID.TabIndex = 20;
+            this.cbxBodyTypeID.SelectedIndexChanged += new System.EventHandler(this.cbxBodyTypeID_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -184,14 +185,15 @@
             this.label1.TabIndex = 19;
             this.label1.Text = "Select Body Type ID:";
             // 
-            // btnAddBody
+            // btnNewBody
             // 
-            this.btnAddBody.Location = new System.Drawing.Point(6, 241);
-            this.btnAddBody.Name = "btnAddBody";
-            this.btnAddBody.Size = new System.Drawing.Size(177, 23);
-            this.btnAddBody.TabIndex = 8;
-            this.btnAddBody.Text = "Add New Body Type";
-            this.btnAddBody.UseVisualStyleBackColor = true;
+            this.btnNewBody.Location = new System.Drawing.Point(6, 241);
+            this.btnNewBody.Name = "btnNewBody";
+            this.btnNewBody.Size = new System.Drawing.Size(177, 23);
+            this.btnNewBody.TabIndex = 8;
+            this.btnNewBody.Text = "Add New Body Type";
+            this.btnNewBody.UseVisualStyleBackColor = true;
+            this.btnNewBody.Click += new System.EventHandler(this.btnNewBody_Click);
             // 
             // btnUpdateBody
             // 
@@ -201,6 +203,7 @@
             this.btnUpdateBody.TabIndex = 6;
             this.btnUpdateBody.Text = "Update Selected Body Type";
             this.btnUpdateBody.UseVisualStyleBackColor = true;
+            this.btnUpdateBody.Click += new System.EventHandler(this.btnUpdateBody_Click);
             // 
             // btnDeleteBody
             // 
@@ -210,11 +213,12 @@
             this.btnDeleteBody.TabIndex = 7;
             this.btnDeleteBody.Text = "Delete Selected Body Type";
             this.btnDeleteBody.UseVisualStyleBackColor = true;
+            this.btnDeleteBody.Click += new System.EventHandler(this.btnDeleteBody_Click);
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.richTextBox2);
-            this.tabPage2.Controls.Add(this.textBox2);
+            this.tabPage2.Controls.Add(this.rtbTailDescription);
+            this.tabPage2.Controls.Add(this.tbxTailName);
             this.tabPage2.Controls.Add(this.label4);
             this.tabPage2.Controls.Add(this.label5);
             this.tabPage2.Controls.Add(this.label6);
@@ -231,20 +235,20 @@
             this.tabPage2.Text = "Tail Types";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // richTextBox2
+            // rtbTailDescription
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(129, 81);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(237, 155);
-            this.richTextBox2.TabIndex = 35;
-            this.richTextBox2.Text = "";
+            this.rtbTailDescription.Location = new System.Drawing.Point(129, 81);
+            this.rtbTailDescription.Name = "rtbTailDescription";
+            this.rtbTailDescription.Size = new System.Drawing.Size(237, 155);
+            this.rtbTailDescription.TabIndex = 35;
+            this.rtbTailDescription.Text = "";
             // 
-            // textBox2
+            // tbxTailName
             // 
-            this.textBox2.Location = new System.Drawing.Point(129, 53);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(160, 20);
-            this.textBox2.TabIndex = 34;
+            this.tbxTailName.Location = new System.Drawing.Point(129, 53);
+            this.tbxTailName.Name = "tbxTailName";
+            this.tbxTailName.Size = new System.Drawing.Size(160, 20);
+            this.tbxTailName.TabIndex = 34;
             // 
             // label4
             // 
@@ -280,6 +284,7 @@
             this.cbxTailTypeID.Name = "cbxTailTypeID";
             this.cbxTailTypeID.Size = new System.Drawing.Size(144, 21);
             this.cbxTailTypeID.TabIndex = 30;
+            this.cbxTailTypeID.SelectedIndexChanged += new System.EventHandler(this.cbxTailTypeID_SelectedIndexChanged);
             // 
             // label7
             // 
@@ -298,6 +303,7 @@
             this.btnNewTail.TabIndex = 28;
             this.btnNewTail.Text = "Add New Tail Type";
             this.btnNewTail.UseVisualStyleBackColor = true;
+            this.btnNewTail.Click += new System.EventHandler(this.btnNewTail_Click);
             // 
             // btnUpdateTail
             // 
@@ -307,6 +313,7 @@
             this.btnUpdateTail.TabIndex = 26;
             this.btnUpdateTail.Text = "Update Selected Tail Type";
             this.btnUpdateTail.UseVisualStyleBackColor = true;
+            this.btnUpdateTail.Click += new System.EventHandler(this.btnUpdateTail_Click);
             // 
             // btnDeleteTail
             // 
@@ -316,11 +323,12 @@
             this.btnDeleteTail.TabIndex = 27;
             this.btnDeleteTail.Text = "Delete Selected Tail Type";
             this.btnDeleteTail.UseVisualStyleBackColor = true;
+            this.btnDeleteTail.Click += new System.EventHandler(this.btnDeleteTail_Click);
             // 
             // tabPage3
             // 
-            this.tabPage3.Controls.Add(this.richTextBox3);
-            this.tabPage3.Controls.Add(this.textBox3);
+            this.tabPage3.Controls.Add(this.rtbEarDescription);
+            this.tabPage3.Controls.Add(this.tbxEarName);
             this.tabPage3.Controls.Add(this.label8);
             this.tabPage3.Controls.Add(this.label10);
             this.tabPage3.Controls.Add(this.label11);
@@ -337,20 +345,20 @@
             this.tabPage3.Text = "Ear Types";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // richTextBox3
+            // rtbEarDescription
             // 
-            this.richTextBox3.Location = new System.Drawing.Point(129, 80);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(237, 155);
-            this.richTextBox3.TabIndex = 45;
-            this.richTextBox3.Text = "";
+            this.rtbEarDescription.Location = new System.Drawing.Point(129, 80);
+            this.rtbEarDescription.Name = "rtbEarDescription";
+            this.rtbEarDescription.Size = new System.Drawing.Size(237, 155);
+            this.rtbEarDescription.TabIndex = 45;
+            this.rtbEarDescription.Text = "";
             // 
-            // textBox3
+            // tbxEarName
             // 
-            this.textBox3.Location = new System.Drawing.Point(129, 52);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(160, 20);
-            this.textBox3.TabIndex = 44;
+            this.tbxEarName.Location = new System.Drawing.Point(129, 52);
+            this.tbxEarName.Name = "tbxEarName";
+            this.tbxEarName.Size = new System.Drawing.Size(160, 20);
+            this.tbxEarName.TabIndex = 44;
             // 
             // label8
             // 
@@ -386,6 +394,7 @@
             this.cbxEarTypeID.Name = "cbxEarTypeID";
             this.cbxEarTypeID.Size = new System.Drawing.Size(144, 21);
             this.cbxEarTypeID.TabIndex = 40;
+            this.cbxEarTypeID.SelectedIndexChanged += new System.EventHandler(this.cbxEarTypeID_SelectedIndexChanged);
             // 
             // label12
             // 
@@ -404,6 +413,7 @@
             this.btnNewEar.TabIndex = 38;
             this.btnNewEar.Text = "Add New Ear Type";
             this.btnNewEar.UseVisualStyleBackColor = true;
+            this.btnNewEar.Click += new System.EventHandler(this.btnNewEar_Click);
             // 
             // btnUpdateEar
             // 
@@ -413,6 +423,7 @@
             this.btnUpdateEar.TabIndex = 36;
             this.btnUpdateEar.Text = "Update Selected Ear Type";
             this.btnUpdateEar.UseVisualStyleBackColor = true;
+            this.btnUpdateEar.Click += new System.EventHandler(this.btnUpdateEar_Click);
             // 
             // btnDeleteEar
             // 
@@ -422,11 +433,12 @@
             this.btnDeleteEar.TabIndex = 37;
             this.btnDeleteEar.Text = "Delete Selected Ear Type";
             this.btnDeleteEar.UseVisualStyleBackColor = true;
+            this.btnDeleteEar.Click += new System.EventHandler(this.btnDeleteEar_Click);
             // 
             // tabPage4
             // 
-            this.tabPage4.Controls.Add(this.richTextBox4);
-            this.tabPage4.Controls.Add(this.textBox4);
+            this.tabPage4.Controls.Add(this.rtbCoatDescription);
+            this.tabPage4.Controls.Add(this.tbxCoatName);
             this.tabPage4.Controls.Add(this.label13);
             this.tabPage4.Controls.Add(this.label14);
             this.tabPage4.Controls.Add(this.label15);
@@ -443,20 +455,20 @@
             this.tabPage4.Text = "Coat Types";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // richTextBox4
+            // rtbCoatDescription
             // 
-            this.richTextBox4.Location = new System.Drawing.Point(129, 80);
-            this.richTextBox4.Name = "richTextBox4";
-            this.richTextBox4.Size = new System.Drawing.Size(237, 155);
-            this.richTextBox4.TabIndex = 45;
-            this.richTextBox4.Text = "";
+            this.rtbCoatDescription.Location = new System.Drawing.Point(129, 80);
+            this.rtbCoatDescription.Name = "rtbCoatDescription";
+            this.rtbCoatDescription.Size = new System.Drawing.Size(237, 155);
+            this.rtbCoatDescription.TabIndex = 45;
+            this.rtbCoatDescription.Text = "";
             // 
-            // textBox4
+            // tbxCoatName
             // 
-            this.textBox4.Location = new System.Drawing.Point(129, 52);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(160, 20);
-            this.textBox4.TabIndex = 44;
+            this.tbxCoatName.Location = new System.Drawing.Point(129, 52);
+            this.tbxCoatName.Name = "tbxCoatName";
+            this.tbxCoatName.Size = new System.Drawing.Size(160, 20);
+            this.tbxCoatName.TabIndex = 44;
             // 
             // label13
             // 
@@ -492,6 +504,7 @@
             this.cbxCoatTypeID.Name = "cbxCoatTypeID";
             this.cbxCoatTypeID.Size = new System.Drawing.Size(144, 21);
             this.cbxCoatTypeID.TabIndex = 40;
+            this.cbxCoatTypeID.SelectedIndexChanged += new System.EventHandler(this.cbxCoatTypeID_SelectedIndexChanged);
             // 
             // label16
             // 
@@ -510,6 +523,7 @@
             this.btnNewCoat.TabIndex = 38;
             this.btnNewCoat.Text = "Add New Coat Type";
             this.btnNewCoat.UseVisualStyleBackColor = true;
+            this.btnNewCoat.Click += new System.EventHandler(this.btnNewCoat_Click);
             // 
             // btnUpdateCoat
             // 
@@ -519,6 +533,7 @@
             this.btnUpdateCoat.TabIndex = 36;
             this.btnUpdateCoat.Text = "Update Selected Coat Type";
             this.btnUpdateCoat.UseVisualStyleBackColor = true;
+            this.btnUpdateCoat.Click += new System.EventHandler(this.btnUpdateCoat_Click);
             // 
             // btnDeleteCoat
             // 
@@ -528,11 +543,12 @@
             this.btnDeleteCoat.TabIndex = 37;
             this.btnDeleteCoat.Text = "Delete Selected Coat Type";
             this.btnDeleteCoat.UseVisualStyleBackColor = true;
+            this.btnDeleteCoat.Click += new System.EventHandler(this.btnDeleteCoat_Click);
             // 
             // tabPage5
             // 
-            this.tabPage5.Controls.Add(this.richTextBox5);
-            this.tabPage5.Controls.Add(this.textBox5);
+            this.tabPage5.Controls.Add(this.rtbHeadDescription);
+            this.tabPage5.Controls.Add(this.tbxHeadName);
             this.tabPage5.Controls.Add(this.label17);
             this.tabPage5.Controls.Add(this.label18);
             this.tabPage5.Controls.Add(this.label19);
@@ -549,20 +565,20 @@
             this.tabPage5.Text = "Head Types";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
-            // richTextBox5
+            // rtbHeadDescription
             // 
-            this.richTextBox5.Location = new System.Drawing.Point(129, 81);
-            this.richTextBox5.Name = "richTextBox5";
-            this.richTextBox5.Size = new System.Drawing.Size(237, 155);
-            this.richTextBox5.TabIndex = 45;
-            this.richTextBox5.Text = "";
+            this.rtbHeadDescription.Location = new System.Drawing.Point(129, 81);
+            this.rtbHeadDescription.Name = "rtbHeadDescription";
+            this.rtbHeadDescription.Size = new System.Drawing.Size(237, 155);
+            this.rtbHeadDescription.TabIndex = 45;
+            this.rtbHeadDescription.Text = "";
             // 
-            // textBox5
+            // tbxHeadName
             // 
-            this.textBox5.Location = new System.Drawing.Point(129, 53);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(160, 20);
-            this.textBox5.TabIndex = 44;
+            this.tbxHeadName.Location = new System.Drawing.Point(129, 53);
+            this.tbxHeadName.Name = "tbxHeadName";
+            this.tbxHeadName.Size = new System.Drawing.Size(160, 20);
+            this.tbxHeadName.TabIndex = 44;
             // 
             // label17
             // 
@@ -598,6 +614,7 @@
             this.cbxHeadTypeID.Name = "cbxHeadTypeID";
             this.cbxHeadTypeID.Size = new System.Drawing.Size(144, 21);
             this.cbxHeadTypeID.TabIndex = 40;
+            this.cbxHeadTypeID.SelectedIndexChanged += new System.EventHandler(this.cbxHeadTypeID_SelectedIndexChanged);
             // 
             // label20
             // 
@@ -616,6 +633,7 @@
             this.btnNewHead.TabIndex = 38;
             this.btnNewHead.Text = "Add New Head Type";
             this.btnNewHead.UseVisualStyleBackColor = true;
+            this.btnNewHead.Click += new System.EventHandler(this.btnNewHead_Click);
             // 
             // btnUpdateHead
             // 
@@ -625,6 +643,7 @@
             this.btnUpdateHead.TabIndex = 36;
             this.btnUpdateHead.Text = "Update Selected Head Type";
             this.btnUpdateHead.UseVisualStyleBackColor = true;
+            this.btnUpdateHead.Click += new System.EventHandler(this.btnUpdateHead_Click);
             // 
             // btnDeleteHead
             // 
@@ -634,6 +653,7 @@
             this.btnDeleteHead.TabIndex = 37;
             this.btnDeleteHead.Text = "Delete Selected Head Type";
             this.btnDeleteHead.UseVisualStyleBackColor = true;
+            this.btnDeleteHead.Click += new System.EventHandler(this.btnDeleteHead_Click);
             // 
             // ManageDogAppearanceTraits
             // 
@@ -667,7 +687,7 @@
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.TabPage tabPage5;
-        private System.Windows.Forms.Button btnAddBody;
+        private System.Windows.Forms.Button btnNewBody;
         private System.Windows.Forms.Button btnUpdateBody;
         private System.Windows.Forms.Button btnDeleteBody;
         private System.Windows.Forms.Label label9;
@@ -675,10 +695,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.RichTextBox richTextBox2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tbxBodyName;
+        private System.Windows.Forms.RichTextBox rtbBodyDescription;
+        private System.Windows.Forms.RichTextBox rtbTailDescription;
+        private System.Windows.Forms.TextBox tbxTailName;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
@@ -687,8 +707,8 @@
         private System.Windows.Forms.Button btnNewTail;
         private System.Windows.Forms.Button btnUpdateTail;
         private System.Windows.Forms.Button btnDeleteTail;
-        private System.Windows.Forms.RichTextBox richTextBox3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.RichTextBox rtbEarDescription;
+        private System.Windows.Forms.TextBox tbxEarName;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
@@ -697,8 +717,8 @@
         private System.Windows.Forms.Button btnNewEar;
         private System.Windows.Forms.Button btnUpdateEar;
         private System.Windows.Forms.Button btnDeleteEar;
-        private System.Windows.Forms.RichTextBox richTextBox4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.RichTextBox rtbCoatDescription;
+        private System.Windows.Forms.TextBox tbxCoatName;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
@@ -707,8 +727,8 @@
         private System.Windows.Forms.Button btnNewCoat;
         private System.Windows.Forms.Button btnUpdateCoat;
         private System.Windows.Forms.Button btnDeleteCoat;
-        private System.Windows.Forms.RichTextBox richTextBox5;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.RichTextBox rtbHeadDescription;
+        private System.Windows.Forms.TextBox tbxHeadName;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
